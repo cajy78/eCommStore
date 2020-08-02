@@ -10,11 +10,19 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-    <servlet-name>DatabaseConnect</servlet-name>
-    <servlet-class>eCommStore.dbConnect</servlet-class>
+    <servlet-name>AddCustomer</servlet-name>
+    <servlet-class>eCommStore.insertCustomer</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>DatabaseConnect</servlet-name>
-    <url-pattern>/dbConnect</url-pattern>
+    <servlet-name>AddCustomer</servlet-name>
+    <url-pattern>/insertCustomer</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>ShowCustomers</servlet-name>
+    <servlet-class>eCommStore.displayCustomers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowCustomer</servlet-name>
+    <url-pattern>/displayCustomers</url-pattern>
   </servlet-mapping>
 </web-app>

@@ -7,7 +7,7 @@
 <title>New Customer</title>
 </head>
 <body>
-<form action="dbConnect" method="post">
+<form action="insertCustomer" method="post">
 <label>Customer Name: </label>
 <input type="text" name="customer_Name"><br><br>
 <label>Customer's City Location:</label>

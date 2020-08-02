@@ -11,6 +11,11 @@
 <h2>please select your action:</h2>
 <div>
 <a href="createNewCustomer.jsp">Add new customer into DB</a><br><br>
+<form action="displayCustomers" method="post">
+<p>Click the submit button to view info on Customers table</p>
+<input type="submit">
+<br>
+</form>
 <a href="createNewCustomer.jsp">Update Customer info into DB</a><br><br>
 <a href="createNewCustomer.jsp">Delete Customer from DB</a>
 </div>
